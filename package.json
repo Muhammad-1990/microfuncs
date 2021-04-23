@@ -1,0 +1,27 @@
+{
+  "name": "microfuncs",
+  "version": "1.0.0",
+  "description": "verify phone    - numverify\r verify email    - mailbox layer\r send smsOTP     - twillio\r send emailVERI  - sendgrid",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-1990/microfuncs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammad-1990/microfuncs/issues"
+  },
+  "homepage": "https://github.com/Muhammad-1990/microfuncs#readme",
+  "devDependencies": {
+    "netlify-lambda": "^2.0.1"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0"
+  }
+}
